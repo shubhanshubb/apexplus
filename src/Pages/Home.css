@@ -1,0 +1,63 @@
+.homeList {
+    padding: 20px 20px;
+    text-align: left;
+    margin: auto;
+    color: white;
+}
+
+.homeInput{
+    width: 20%;
+    border: none;
+    padding: 10px 25px;
+    background-color: #494242;
+    padding-top: 10px;
+    border: 1px solid white;
+}
+.label{
+    display: block;
+    text-align: left;
+}
+
+.options{
+    color: white;
+    font: optional;
+}
+
+.allHomeTable{
+    width: 120%;
+}
+.button {
+display: inline-block;
+padding: 10px 20px;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+margin-right: 10px;
+}
+
+.button.green{
+background-color: #4caf50;
+}
+
+.button.sky {
+background-color: #4a90e2;
+}
+
+.button:hover {
+opacity: 0.8;
+cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .row {
+        
+        grid-template-columns: auto auto;
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .row {
+        grid-template-columns: auto;
+        
+    }
+}
